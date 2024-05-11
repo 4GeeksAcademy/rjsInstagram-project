@@ -1,19 +1,10 @@
-/*body{
-    background-color: black;
-}*/
+
 .project{
     display: flex;
 }
-.one{
-    width: 40%;
-    background-color: white;
-}
-section{
-    width: 40%;
-    background-color: red;
-}
-main{
-    width: 40%;
-    height: 40%;
+div{
     background-color: green;
+    width: 40%;
+    height: 30%;
 }
+
