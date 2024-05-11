@@ -1,10 +1,23 @@
+.project {
+  
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
 
-.project{
-    display: flex;
+    
+   
+    
 }
-div{
+.one{
+    
     background-color: green;
-    width: 40%;
-    height: 30%;
 }
 
+.two{
+    background-color: pink;
+
+}
+.three{
+    background-color: gray;
+    
+}
