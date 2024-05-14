@@ -1,28 +1,65 @@
-body{
-    background-color: black;
-}
+
 .project {
-  
+    background-color: black;
     display:flex;
     margin: auto;
     flex-direction: column;
     border:2px solid white;
-    width: 20%;
-
+    width: 40%;
+    height: 100vh; 
+    margin:auto;
+}
+.logo,.image,.footer{
+    width: 74%;
+    background-color: white;
+    margin-left: 10%;
     
-   
     
+}
+.logo{
+    margin-top: 40px;
+    height: 10%;
+}
+.footer{
+    height: 25%;
 }
 .one{
-    background-color: white;
-    
+    position: absolute;
+    margin-left: 80px;
+    top: 40px;
 }
-
 .two{
-    
-
+    position: absolute;
+    margin-left: 80px;
+    top: 60px;
 }
-.three{
+.dot1{
     
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    position: absolute;
+    margin-left: 380px;
+    top: 70px;
+    border-radius: 3px;
+}
+.dot2{
     
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    position: absolute;
+    margin-left: 380px;
+    top: 60px;
+    border-radius: 3px;
+}
+.dot3{
+    
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    position: absolute;
+    margin-left: 380px;
+    top: 49px;
+    border-radius: 3px;
 }
